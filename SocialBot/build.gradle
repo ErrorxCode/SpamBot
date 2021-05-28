@@ -1,0 +1,31 @@
+plugins {
+    id 'java-library'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
+}
+
+dependencies {
+    implementation files('libs/byte-buddy-1.8.15.jar')
+    implementation files('libs/commons-exec-1.3.jar')
+    implementation files('libs/guava-25.0-jre.jar')
+    implementation files('libs/okhttp-3.11.0.jar')
+    implementation files('libs/okio-1.14.0.jar')
+    implementation files('libs/selenium-server-standalone-3.141.59.jar')
+}
+
+task deleteJar(type: Delete) {
+    delete 'libs/jars/SocialBot.jar'
+}
+
+
+task createJar(type: Copy) {
+    from('build/intermediates/packaged-classes/release/')
+    into('libs/jars/')
+    include('classes.jar')
+    rename('classes.jar', 'SocialBot.jar')
+}
+
+createJar.dependsOn(deleteJar, build)

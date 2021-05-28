@@ -1,0 +1,3 @@
+include ':SocialBot'
+include ':app'
+rootProject.name = "Android Developement"
