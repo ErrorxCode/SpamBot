@@ -35,4 +35,4 @@
 
 Enjoy 😸
 
-our [Telegram group](http://t.me/TeamDestroyerss)
+our [Telegram group](http://t.me/TheAllRounders)
