@@ -40,7 +40,7 @@
 - `sudo mv geckodriver /usr/local/bin/ (from the project directory)`
 - `chmod +x geckodriver (from the /usr/local/bin/ directory )` -->
 
-**Note : In next update, I will make support firefox & linux whith many features & customization
+**Note : In next update, I will make support firefox & linux whith many features & customization**
 
 Enjoy 😸
 
