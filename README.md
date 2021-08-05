@@ -1,34 +1,37 @@
 # SpamBot
 
-<p align="left">
-  <a href="#"><img alt="Windows OS" src="https://img.shields.io/badge/OS-Windows-3DDC84?style=flat-square&logo=windows"></a>
+<p align="center">
+  <a href="#"><img alt="Windows OS" src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white"></a>
   <a href="#"><img alt="Languages-Java" src="https://img.shields.io/badge/Language-Java-1DA1F2?style=flat-square&logo=java"></a>
-  <a href="#"><img alt="Version" src="https://img.shields.io/badge/Driver version-91.0.4472.77-blue"></a>
-  <a href="#"><img alt="Bot" src="https://img.shields.io/badge/Bot version-v1-orange"></a>
+  <a href="#"><img alt="Languages-Java" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"></a>
+  <a href="#"><img alt="Bot" src="https://img.shields.io/badge/Bot version-v2-orange"></a>
   <a href="https://www.instagram.com/x__coder__x/"><img alt="Instagram - x__coder__" src="https://img.shields.io/badge/Instagram-x____coder____x-lightgrey"></a>
   <a href="#"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ErrorxCode/OTP-Verification-Api?style=social"></a>
   </p>
 
-### A java programm which automatically comment on youtube videos.
+#### A java programm which automatically comment on youtube videos based on your keywords. This bot will help you to grow your channel. You can customize bot according to you by changing configuration. Please see Configuration guide below.
 
 ## Requirements
-* Chrome (90.0.4430.212)
-* Windows
+* Chrome or firefox
+* Windows or linux
 * A stable Internet connection
 * A fresh or less secure google account
 
 ## Usage
-
 1. Open keywords.txt
-2. Enter Keywords ( one per line ) for which you want to search for.
-3. Run Youtubebot.exe
+2. Enter your keyword one per line
+3. Open config.txt
+4. Change config according to your need.
+5. Run SpamBot.exe
 
-**Exceptions** : 
+## Exception/Error
 ~~If you are not able to login to google account then try~~ :- 
 1. *Disabling 2 factor authentication (from your account settings)*
 2. *turn on less secure apps (from your account settings)*
 3. *Check if Javascript is enabled or not if not , then enable it (from browser settings)*
 4. *Make another google account with no security*
+
+
 <!-- 
 ### **For Instagram** :- 
 1. Open tags.txt
@@ -40,8 +43,33 @@
 - `sudo mv geckodriver /usr/local/bin/ (from the project directory)`
 - `chmod +x geckodriver (from the /usr/local/bin/ directory )` -->
 
-**Note : In next update, I will make support firefox & linux whith many features & customization**
 
-Enjoy 😸
+## Configuration Reference
 
-our [Telegram group](http://t.me/TheAllRounders)
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| FILTER_UPLOAD | `string` | Enter anyone form "month","today","week" |
+| VIDEO_PER_SEARCH  | `int`    | Enter the no. of videos to grab per search                       |
+| SPAM_1_VIDEO      | `boolean` | Enter true, if you want to spam a perticular video. false otherwise |
+| SPAM_COUNT | `int` |Enter the no. of comments for which *SPAM_1_VIDEO is true* |
+| SPAM_VIDEO_URL  | `string` | Enter the video link for which *SPAM_1_VIDEO is true* |
+| USERNAME  | `string` | Enter your google account username  |
+| PASSWORD  | `string` | Enter your google account password  |
+| COMMENT  | `string` | Enter your comment  |
+| BROWSER  | `string` | Enter anyone from "chrome" or "firefox"  |
+
+  
+## Config Example
+
+```
+FILTER_UPLOAD = month
+VIDEO_PER_SEARCH = 10
+SPAM_1_VIDEO = false
+SPAM_COUNT = 0
+SPAM_VIDEO_URL = https://youtube.com/watch?v=MDLDDunsLqf
+USERNAME = your_google_username_here
+PASSWORD = your_google_password_here
+COMMENT = Get this bot : https://github.com/ErrorxCode/SpamBot
+BROWSER = chrome
+```
