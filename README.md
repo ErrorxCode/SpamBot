@@ -1,4 +1,4 @@
-# SocialBot
+# SpamBot
 
 <p align="left">
   <a href="#"><img alt="Windows OS" src="https://img.shields.io/badge/OS-Windows-3DDC84?style=flat-square&logo=windows"></a>
