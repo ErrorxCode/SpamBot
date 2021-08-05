@@ -1,6 +1,5 @@
 # SpamBot
-
-<p align="center">
+<p align="left">
   <a href="#"><img alt="Windows OS" src="https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white"></a>
   <a href="#"><img alt="Languages-Java" src="https://img.shields.io/badge/Language-Java-1DA1F2?style=flat-square&logo=java"></a>
   <a href="#"><img alt="Languages-Java" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"></a>
