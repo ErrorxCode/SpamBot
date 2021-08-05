@@ -16,12 +16,15 @@
 * A stable Internet connection
 * A fresh or less secure google account
 
+<a href="https://github.com/ErrorxCode/SpamBot/releases/download/2.0/SpamBot.zip"><img alt="Download" height=40 src="https://dabuttonfactory.com/button.png?t=Download now&f=Open+Sans-Bold&ts=20&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798"></a>
+
 ## Usage
 1. Open keywords.txt
 2. Enter your keyword one per line
 3. Open config.txt
 4. Change config according to your need.
 5. Run SpamBot.exe
+
 
 ## Exception/Error
 ~~If you are not able to login to google account then try~~ :- 
@@ -72,6 +75,7 @@ PASSWORD = your_google_password_here
 COMMENT = Get this bot : https://github.com/ErrorxCode/SpamBot
 BROWSER = chrome
 ```
+
  
    
 ## License 
