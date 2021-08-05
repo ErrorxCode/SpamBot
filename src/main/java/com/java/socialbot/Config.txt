@@ -1,0 +1,9 @@
+FILTER_UPLOAD = month
+VIDEO_PER_SEARCH = 5
+SPAM_1_VIDEO = true
+SPAM_COUNT = 10
+SPAM_VIDEO_URL = https://www.youtube.com/watch?v=g0d-brlr-0Q
+USERNAME = hackerinsiderahil
+PASSWORD = googlepassword
+COMMENT = *For comment bot* , use this : https://github.com/ErrorxCode/SocialBot
+BROWSER = chrome
