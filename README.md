@@ -16,7 +16,7 @@
 * A stable Internet connection
 * A fresh or less secure google account
 
-<a href="https://github.com/ErrorxCode/SpamBot/releases/download/2.0/SpamBot.zip"><img alt="Download" height=40 src="https://dabuttonfactory.com/button.png?t=Download now&f=Open+Sans-Bold&ts=25&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798"></a>
+<a href="https://github.com/ErrorxCode/SpamBot/releases/download/2.2/SpamBot.zip"><img alt="Download" height=40 src="https://dabuttonfactory.com/button.png?t=Download now&f=Open+Sans-Bold&ts=25&tc=fff&hp=45&vp=20&c=11&bgt=unicolored&bgc=15d798"></a>
 
 ## Usage
 1. Open keywords.txt
