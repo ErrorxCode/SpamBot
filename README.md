@@ -7,6 +7,8 @@
   <a href="https://www.instagram.com/x__coder__x/"><img alt="Instagram - x__coder__" src="https://img.shields.io/badge/Instagram-x____coder____x-lightgrey"></a>
   <a href="#"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/ErrorxCode/OTP-Verification-Api?style=social"></a>
   </p>
+  
+## [NOT WORKING ANYMORE](https://github.com/ErrorxCode/SpamBot/issues/2)
 
 #### A java programm which automatically comment on youtube videos based on your keywords. This bot will help you to grow your channel. You can customize bot according to you by changing configuration. Please see Configuration guide below.
 
